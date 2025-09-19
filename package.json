@@ -1,0 +1,17 @@
+{
+  "private": true,
+  "name": "sql-query-builder",
+  "main": "index.ts",
+  "type": "commonjs",
+  "devDependencies": {
+    "prettier": "^3.6.2",
+    "ts-node": "^10.9.2",
+    "typescript": "^5"
+  },
+  "scripts": {
+    "compile": "tsc",
+    "format": "prettier -w *.ts",
+    "format:check": "prettier -c *.ts",
+    "test": "node -r ts-node/register --test index.test.ts"
+  }
+}
